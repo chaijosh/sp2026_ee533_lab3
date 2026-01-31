@@ -1,0 +1,28 @@
+Determining compilation order of HDL files
+Analyzing Verilog file small_fifo.v
+WARNING:HDLCompiler:693 - "small_fifo.v" Line 36. Parameter declaration becomes
+   local in small_fifo with formal parameter declaration list
+Analyzing Verilog file fallthrough_small_fifo_v2.v
+Analyzing Verilog file C:/Xilinx/10.1/ISE/verilog/src/glbl.v
+Saving Verilog parse-tree work.small_fifo into
+z:/ee533/lab3_sp26/src_verilog/isim/work/small_fifo.sdb
+Saving Verilog parse-tree work.fallthrough_small_fifo into
+z:/ee533/lab3_sp26/src_verilog/isim/work/fallthrough_small_fifo.sdb
+Saving Verilog parse-tree work.fallthrough_small_fifo_tester into
+z:/ee533/lab3_sp26/src_verilog/isim/work/fallthrough_small_fifo_tester.sdb
+Saving Verilog parse-tree work.glbl into
+z:/ee533/lab3_sp26/src_verilog/isim/work/glbl.sdb
+Starting static elaboration
+WARNING:HDLCompiler:597 - "fallthrough_small_fifo_v2.v" Line 41. Module
+   small_fifo does not have a parameter named PROG_FULL_THRESHOLD
+Completed static elaboration
+Fuse Memory Usage: 54152 Kb
+Fuse CPU Usage: 140 ms
+Compiling module glbl
+Compiling module small_fifo(WIDTH=32,MAX_DEPTH_BI...
+Compiling module fallthrough_small_fifo(WIDTH=32,...
+Compiling module fallthrough_small_fifo_tester
+Compiled 4 Verilog Units
+Built simulation executable fallthrough_small_fifo_tester_isim_beh.exe
+Fuse Memory Usage: 55436 Kb
+Fuse CPU Usage: 233 ms

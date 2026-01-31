@@ -1,0 +1,5 @@
+MODULE dropfifo
+	SUBMODULE reg9B
+		INSTANCE XLXI_15
+	SUBMODULE dual_port_mem
+		INSTANCE XLXI_16

@@ -1,0 +1,134 @@
+Command line:
+   ./ids_tb_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  1215
+WARNING:Simulator:16 - For instance UUT/module_regs/, width 48 of formal port
+   software_regs is not equal to width 96 of actual.
+WARNING:Simulator:679 -  For instance UUT/module_regs/, width 16 of formal port
+   hardware_regs is not equal to width 32 of actual variable matches. 
+
+Sat Jan 31 00:29:36 2026
+
+Total Line Count : 2891
+
+ Elaboration Time: 1.78125 sec
+
+ Current Memory Usage: 151.052 Meg
+
+ Total Signals          : 5317
+ Total Nets             : 2677
+ Total Signal Drivers   : 1492
+ Total Blocks           : 1103
+ Total Primitive Blocks : 976
+ Total Processes        : 2245
+ Total Traceable Variables  : 627
+ Total Scalar Nets and Variables : 47470
+ntrace select -o on -n /ids_tb/in_rdy 
+ntrace select -o on -n /ids_tb/out_data 
+ntrace select -o on -n /ids_tb/out_ctrl 
+ntrace select -o on -n /ids_tb/out_wr 
+ntrace select -o on -n /ids_tb/reg_req_out 
+ntrace select -o on -n /ids_tb/reg_ack_out 
+ntrace select -o on -n /ids_tb/reg_rd_wr_L_out 
+ntrace select -o on -n /ids_tb/reg_addr_out 
+ntrace select -o on -n /ids_tb/reg_data_out 
+ntrace select -o on -n /ids_tb/reg_src_out 
+ntrace select -o on -n /ids_tb/PERIOD 
+ntrace select -o on -n /ids_tb/DUTY_CYCLE 
+ntrace select -o on -n /ids_tb/OFFSET 
+ntrace select -o on -n /ids_tb/in_data 
+ntrace select -o on -n /ids_tb/in_ctrl 
+ntrace select -o on -n /ids_tb/in_wr 
+ntrace select -o on -n /ids_tb/out_rdy 
+ntrace select -o on -n /ids_tb/reg_req_in 
+ntrace select -o on -n /ids_tb/reg_ack_in 
+ntrace select -o on -n /ids_tb/reg_rd_wr_L_in 
+ntrace select -o on -n /ids_tb/reg_addr_in 
+ntrace select -o on -n /ids_tb/reg_data_in 
+ntrace select -o on -n /ids_tb/reg_src_in 
+ntrace select -o on -n /ids_tb/reset 
+ntrace select -o on -n /ids_tb/clk 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+WARNING:Simulator:29 - at 200.000 ns: Warning: Timing violation in
+   /ids_tb/UUT/drop_fifo/XLXI_16/inst/  $recovery( CLKB:200.000 ns, CLKA:200.000
+   ns,1.000 ns)
+
+WARNING:Simulator:29 - at 200.000 ns: Warning: Timing violation in
+   /ids_tb/UUT/drop_fifo/XLXI_16/inst/  $recovery( CLKA:200.000 ns, CLKB:200.000
+   ns,1.000 ns)
+
+WARNING:Simulator:29 - at 300.000 ns: Warning: Timing violation in
+   /ids_tb/UUT/drop_fifo/XLXI_16/inst/  $recovery( CLKB:300.000 ns, CLKA:300.000
+   ns,1.000 ns)
+
+WARNING:Simulator:29 - at 300.000 ns: Warning: Timing violation in
+   /ids_tb/UUT/drop_fifo/XLXI_16/inst/  $recovery( CLKA:300.000 ns, CLKB:300.000
+   ns,1.000 ns)
+
+WARNING:Simulator:29 - at 400.000 ns: Warning: Timing violation in
+   /ids_tb/UUT/drop_fifo/XLXI_16/inst/  $recovery( CLKB:400.000 ns, CLKA:400.000
+   ns,1.000 ns)
+
+WARNING:Simulator:29 - at 400.000 ns: Warning: Timing violation in
+   /ids_tb/UUT/drop_fifo/XLXI_16/inst/  $recovery( CLKA:400.000 ns, CLKB:400.000
+   ns,1.000 ns)
+
+WARNING:Simulator:29 - at 500.000 ns: Warning: Timing violation in
+   /ids_tb/UUT/drop_fifo/XLXI_16/inst/  $recovery( CLKB:500.000 ns, CLKA:500.000
+   ns,1.000 ns)
+
+WARNING:Simulator:29 - at 500.000 ns: Warning: Timing violation in
+   /ids_tb/UUT/drop_fifo/XLXI_16/inst/  $recovery( CLKA:500.000 ns, CLKB:500.000
+   ns,1.000 ns)
+
+WARNING:Simulator:29 - at 600.000 ns: Warning: Timing violation in
+   /ids_tb/UUT/drop_fifo/XLXI_16/inst/  $recovery( CLKB:600.000 ns, CLKA:600.000
+   ns,1.000 ns)
+
+WARNING:Simulator:29 - at 600.000 ns: Warning: Timing violation in
+   /ids_tb/UUT/drop_fifo/XLXI_16/inst/  $recovery( CLKA:600.000 ns, CLKB:600.000
+   ns,1.000 ns)
+
+WARNING:Simulator:29 - at 700.000 ns: Warning: Timing violation in
+   /ids_tb/UUT/drop_fifo/XLXI_16/inst/  $recovery( CLKB:700.000 ns, CLKA:700.000
+   ns,1.000 ns)
+
+WARNING:Simulator:29 - at 700.000 ns: Warning: Timing violation in
+   /ids_tb/UUT/drop_fifo/XLXI_16/inst/  $recovery( CLKA:700.000 ns, CLKB:700.000
+   ns,1.000 ns)
+
+WARNING:Simulator:29 - at 800.000 ns: Warning: Timing violation in
+   /ids_tb/UUT/drop_fifo/XLXI_16/inst/  $recovery( CLKB:800.000 ns, CLKA:800.000
+   ns,1.000 ns)
+
+WARNING:Simulator:29 - at 800.000 ns: Warning: Timing violation in
+   /ids_tb/UUT/drop_fifo/XLXI_16/inst/  $recovery( CLKA:800.000 ns, CLKB:800.000
+   ns,1.000 ns)
+
+WARNING:Simulator:29 - at 900.000 ns: Warning: Timing violation in
+   /ids_tb/UUT/drop_fifo/XLXI_16/inst/  $recovery( CLKB:900.000 ns, CLKA:900.000
+   ns,1.000 ns)
+
+WARNING:Simulator:29 - at 900.000 ns: Warning: Timing violation in
+   /ids_tb/UUT/drop_fifo/XLXI_16/inst/  $recovery( CLKA:900.000 ns, CLKB:900.000
+   ns,1.000 ns)
+
+WARNING:Simulator:29 - at 1.000 us: Warning: Timing violation in
+   /ids_tb/UUT/drop_fifo/XLXI_16/inst/  $recovery( CLKB:1.000 us, CLKA:1.000
+   us,1.000 ns)
+
+WARNING:Simulator:29 - at 1.000 us: Warning: Timing violation in
+   /ids_tb/UUT/drop_fifo/XLXI_16/inst/  $recovery( CLKA:1.000 us, CLKB:1.000
+   us,1.000 ns)
+
+
+ Total Simulation Time: 1.90625 sec
+
+ Current Memory Usage: 160.555 Meg
+
+Sat Jan 31 00:31:47 2026
+

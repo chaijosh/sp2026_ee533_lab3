@@ -1,0 +1,9 @@
+sch2verilog -intstyle ise -family virtex2p   -w "Z:/EE533/lab3_sp26/src/detect7B.sch" detect7B.vf
+sch2verilog -intstyle ise -family virtex2p   -w "Z:/EE533/lab3_sp26/src/detect7B.sch" detect7B.vf
+sch2verilog -intstyle ise -family virtex2p   -w "Z:/EE533/lab3_sp26/src/detect7B.sch" detect7B.vf
+sch2verilog -intstyle ise -family virtex2p   -w "Z:/EE533/lab3_sp26/src/detect7B.sch" detect7B.vf
+sch2verilog -intstyle ise -family virtex2p   -w "Z:/EE533/lab3_sp26/src/detect7B.sch" detect7B.vf
+sch2verilog -intstyle ise -family virtex2p   -w "Z:/EE533/lab3_sp26/src/detect7B.sch" detect7B.vf
+sch2verilog -intstyle ise -family virtex2p   -w "Z:/EE533/lab3_sp26/src/detect7B.sch" detect7B.vf
+sch2verilog -intstyle ise -family virtex2p   -w "Z:/EE533/lab3_sp26/src/detect7B.sch" detect7B.vf
+sch2verilog -intstyle ise -family virtex2p   -w "Z:/EE533/lab3_sp26/src/detect7B.sch" detect7B.vf

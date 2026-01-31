@@ -1,0 +1,5 @@
+sch2verilog -intstyle ise -family virtex2p   -w "Z:/EE533/lab3_sp26/src/dropfifo.sch" dropfifo.vf
+sch2verilog -intstyle ise -family virtex2p   -w "Z:/EE533/lab3_sp26/src/dropfifo.sch" dropfifo.vf
+sch2verilog -intstyle ise -family virtex2p   -w "Z:/EE533/lab3_sp26/src/dropfifo.sch" dropfifo.vf
+sch2verilog -intstyle ise -family virtex2p   -w "Z:/EE533/lab3_sp26/src/dropfifo.sch" dropfifo.vf
+sch2verilog -intstyle ise -family virtex2p   -w "Z:/EE533/lab3_sp26/src/dropfifo.sch" dropfifo.vf

@@ -1,0 +1,3 @@
+verilog isim_temp "small_fifo.v"
+verilog isim_temp "fallthrough_small_fifo_v2.v"
+verilog isim_temp "C:/Xilinx/10.1/ISE/verilog/src/glbl.v"
